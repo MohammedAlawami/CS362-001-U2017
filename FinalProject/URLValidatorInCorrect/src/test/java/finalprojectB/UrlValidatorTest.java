@@ -36,38 +36,50 @@ public class UrlValidatorTest extends TestCase {
       super(testName);
    }
 
-   
-   
+
+
    public void testManualTest()
    {
 	   UrlValidator urlVal = new UrlValidator(null, null, UrlValidator.ALLOW_ALL_SCHEMES);
 	   System.out.println(urlVal.isValid("http://www.amazon.com"));
-	   
-	   
+	   assertTrue(urlVal.isValid("http://www.amazon.com"));
+
+     UrlValidator urlVal2 = new UrlValidator();
+     String null_string = null;
+     urlVal2.isValid(null);
+     assertFalse(urlVal2.isValid(null_string));
+
+     String[] schemes = {"http", "https"};
+     UrlValidator urlVal3 = new UrlValidator(schemes);
+     assertTrue(urlVal3.isValid("http://www.amazon.com"));
+
+
+
+
    }
-   
-   
+
+
    public void testYourFirstPartition()
    {
-	   
+
    }
-   
+
    public void testYourSecondPartition(){
-	   
+
    }
-   
-   
+
+
    public void testIsValid()
    {
 	   for(int i = 0;i<10000;i++)
 	   {
-		   
+
 	   }
    }
-   
+
    public void testAnyOtherUnitTest()
    {
-	   
+
    }
    /**
     * Create set of tests by taking the testUrlXXX arrays and
@@ -75,6 +87,6 @@ public class UrlValidatorTest extends TestCase {
     *
     * @param testObjects Used to create a url.
     */
-   
+
 
 }

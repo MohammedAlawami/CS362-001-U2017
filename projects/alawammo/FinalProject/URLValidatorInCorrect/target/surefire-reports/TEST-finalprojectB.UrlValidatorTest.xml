@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="11" failures="0" name="finalprojectA.UrlValidatorTest" time="2.296" errors="0" skipped="0">
+<testsuite tests="5" failures="0" name="finalprojectB.UrlValidatorTest" time="0.357" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
     <property name="java.vm.version" value="25.131-b11"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\MOHAMMED\CS362-001-U2017\projects\alawammo\FinalProject\URLValidatorCorrect"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\MOHAMMED\CS362-001-U2017\projects\alawammo\FinalProject\URLValidatorInCorrect"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\MOHAMMED\CS362-001-U2017\projects\alawammo\FinalProject\URLValidatorCorrect"/>
+    <property name="user.dir" value="C:\Users\MOHAMMED\CS362-001-U2017\projects\alawammo\FinalProject\URLValidatorInCorrect"/>
     <property name="java.runtime.version" value="1.8.0_131-b11"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\endorsed"/>
@@ -27,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="net.sourceforge.cobertura.datafile" value="C:\Users\MOHAMMED\CS362-001-U2017\projects\alawammo\FinalProject\URLValidatorCorrect\target\cobertura\cobertura.ser"/>
+    <property name="net.sourceforge.cobertura.datafile" value="C:\Users\MOHAMMED\CS362-001-U2017\projects\alawammo\FinalProject\URLValidatorInCorrect\target\cobertura\cobertura.ser"/>
     <property name="classworlds.conf" value="C:\apache-maven-3.5.0\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Java\jdk1.8.0_131\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\apache-maven-3.5.0\bin;C:\Program Files\Java\jdk1.8.0_131;C:\Program Files\nodejs\;C:\Users\MOHAMMED\AppData\Local\Microsoft\WindowsApps;C:\Users\MOHAMMED\AppData\Local\atom\bin;C:\Users\MOHAMMED\AppData\Roaming\npm;C:\Users\MOHAMMED\AppData\Local\GitHubDesktop\bin;."/>
@@ -62,20 +62,14 @@
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="project.build.outputDirectory" value="C:\Users\MOHAMMED\CS362-001-U2017\projects\alawammo\FinalProject\URLValidatorCorrect\target\generated-classes\cobertura"/>
+    <property name="project.build.outputDirectory" value="C:\Users\MOHAMMED\CS362-001-U2017\projects\alawammo\FinalProject\URLValidatorInCorrect\target\generated-classes\cobertura"/>
     <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="finalprojectA.UrlValidatorTest" name="testValidateUrl" time="0.003"/>
-  <testcase classname="finalprojectA.UrlValidatorTest" name="testIsValidScheme" time="0.004"/>
-  <testcase classname="finalprojectA.UrlValidatorTest" name="testBug1" time="0.005"/>
-  <testcase classname="finalprojectA.UrlValidatorTest" name="testBug2" time="0.002"/>
-  <testcase classname="finalprojectA.UrlValidatorTest" name="testIsValid" time="2.281"/>
-  <testcase classname="finalprojectA.UrlValidatorTest" name="testValidator202" time="0"/>
-  <testcase classname="finalprojectA.UrlValidatorTest" name="testValidator204" time="0"/>
-  <testcase classname="finalprojectA.UrlValidatorTest" name="testValidator218" time="0"/>
-  <testcase classname="finalprojectA.UrlValidatorTest" name="testValidator248" time="0"/>
-  <testcase classname="finalprojectA.UrlValidatorTest" name="testValidator276" time="0.001"/>
-  <testcase classname="finalprojectA.UrlValidatorTest" name="testValidator288" time="0"/>
+  <testcase classname="finalprojectB.UrlValidatorTest" name="testManualTest" time="0.357"/>
+  <testcase classname="finalprojectB.UrlValidatorTest" name="testAnyOtherUnitTest" time="0"/>
+  <testcase classname="finalprojectB.UrlValidatorTest" name="testYourSecondPartition" time="0"/>
+  <testcase classname="finalprojectB.UrlValidatorTest" name="testYourFirstPartition" time="0"/>
+  <testcase classname="finalprojectB.UrlValidatorTest" name="testIsValid" time="0"/>
 </testsuite>
